@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DNA Pattern Scanner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🧬 DNA Pattern Scanner</h1>
+
+    <div class="input-box">
+        <label>Enter DNA Sequence</label>
+        <input type="text" id="dna" placeholder="Example: ATGCGATACG">
+    </div>
+
+    <div class="input-box">
+        <label>Enter Pattern</label>
+        <input type="text" id="pattern" placeholder="Example: CGA">
+    </div>
+
+    <button onclick="findPattern()">SCAN</button>
+
+    <div class="output">
+        <h2>Result</h2>
+        <p id="result">Waiting for scan...</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
